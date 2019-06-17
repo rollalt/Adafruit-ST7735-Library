@@ -176,10 +176,10 @@ static const uint8_t PROGMEM
     2,                              //  2 commands in list:
     ST77XX_CASET,   4,              //  1: Column addr set, 4 args, no delay:
       0x00, 0x00,                   //     XSTART = 0
-      0x00, 0x4F,                   //     XEND = 79
+      0x00, 0x50,                   //     XEND = 79
     ST77XX_RASET,   4,              //  2: Row addr set, 4 args, no delay:
       0x00, 0x00,                   //     XSTART = 0
-      0x00, 0x9F },                 //     XEND = 159
+      0x00, 0xA0 },                 //     XEND = 159
 
   Rcmd3[] = {                       // 7735R init, part 3 (red or green tab)
     4,                              //  4 commands in list:
